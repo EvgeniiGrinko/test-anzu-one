@@ -18,6 +18,8 @@ function authenticateWithGoogle() {
         // The signed-in user info.
         const user = result.user;
         console.log(user);
+        window.location.href = '/feed.html';
+        
         // ...
       }).catch((error) => {
           console.log('error');

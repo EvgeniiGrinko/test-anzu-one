@@ -26,6 +26,8 @@ nav {
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
 }
 /** 
     Main
@@ -93,6 +95,12 @@ footer  {
 
 footer p {
     margin: 0;
+}
+
+#avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
 }
 
 
