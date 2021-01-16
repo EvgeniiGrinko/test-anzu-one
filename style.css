@@ -49,13 +49,50 @@ main.main{
 .left-half h3 {
     margin: 5% 0;
 }
-
+.right-half form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.right-half form .half-input{
+    grid-column: span 1;
+    margin: 1% 0;
+    min-height: 30px;
+    font-size: 15px;
+}
+.right-half form .full-input {
+    grid-column: span 2;
+    margin: 1% 0;
+    min-height: 30px;
+    font-size: 15px;
+}
+.right-half form button {
+    font-size: 16px;
+    padding: 8px 12px;
+    background: green;
+    color: white;
+    border-radius: 6px;
+}
+hr{
+    border: 0.5 solid black;
+    width: 100%;
+}
 /** 
     Footer
 **/
 
 footer  {
     height: 50px;
+    width: 100%;
+    background: rgb(32, 29, 29);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer p {
+    margin: 0;
 }
 
 
