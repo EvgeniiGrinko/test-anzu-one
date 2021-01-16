@@ -12,29 +12,35 @@
 
 <body>
     <nav class="navbar">
+
+        <i class="material-icons">power</i>
         <div class="logo">
-            <img src="" alt="">
             <h2>Connection</h2>
-        </div>
-        <div class="links">
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Profile</li>
-            </ul>
         </div>
     </nav>
     <main class="main">
-
-        <div class="login-holder">
-            <p>Email: <input name="email" id="email"></p>
-            <p>Password: <input name="password" id="password"></p>
-            <hr>
-            <p>Or sign in with Google <button id="google-auth"><i class="material-icons">G</i></button> </p>
-
-
+        <div class="left-half">
+            <h2 class="title">Connect with your colleagues and clients</h2>
+            <h3><i class="material-icons">work</i>Communicate with your colleague.</h3>
+            <h3><i class="material-icons">business</i>Listen from your client.</h3>
+            <h3><i class="material-icons">corporate_fare</i>Write to your boss.</h3>
         </div>
-
+        <div class="right-half">
+            <h1>Sign Up</h1>
+            <h4>It's free and always will be.</h4>
+            <form action="">
+                <input class="half-input" placeholder="First name" name="first_name" type="text">
+                <input class="half-input" placeholder="Last name" name="last_name" type="text">
+                <input class="full-input" placeholder="Mobile number or email" name="number_or_email" type="text">
+                <input class="full-input" placeholder="New password" name="new_password" type="password">
+                <button type="submit">
+                    Sign up
+                </button>
+            </form>
+            <hr>
+            <p>Or authenticate with Google &nbsp;</p>
+            <button>G</button>
+        </div>
 
     </main>
     <footer class="footer"></footer>
@@ -42,7 +48,7 @@
     <script>
         // Your web app's Firebase configuration
         // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-        var firebaseConfig = {
+        const firebaseConfig = {
             apiKey: "AIzaSyDNLbKYr2o52BjoJk0y3oKqYuH-f6_H-vs",
             authDomain: "test-anzu-one.firebaseapp.com",
             projectId: "test-anzu-one",
